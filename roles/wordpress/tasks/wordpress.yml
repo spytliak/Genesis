@@ -1,0 +1,55 @@
+---
+- name: create docker-compose folders for wordpress
+  file:
+    path: "{{ project_dir }}/{{ item }}"
+    state: directory
+    owner: "{{ system_user }}"
+    group: "{{ system_user }}"
+    recurse: yes
+    mode: 0755
+  with_items: "{{ wp.dirs }}"
+  tags:
+    - dirs
+
+- name: copy docker-compose project (Wordpress/Mysql/Nginx)
+  template:
+    src: docker-compose.j2
+    dest: "{{ project_dir }}/docker-compose.yml"
+    owner: "{{ system_user }}"
+    group: "{{ system_user }}"
+    mode: 0644
+  tags:
+    - compose
+
+- name: copy nginx conf
+  template:
+    src: wordpress-nginx.j2
+    dest: "{{ project_dir }}/nginx/wordpress.conf"
+    owner: "{{ system_user }}"
+    group: "{{ system_user }}"
+    mode: 0644
+  tags:
+    - nginx
+
+- name: copy .env file
+  copy:
+    src: .env
+    dest: "{{ project_dir }}"
+    owner: "{{ system_user }}"
+    group: "{{ system_user }}"
+    mode: 0644
+
+- name: run docker-compose
+#  docker_compose: # for module need docker-py
+#    project_name: wordpress
+#    project_src: "{{ project_dir }}"
+#    files: docker-compose.yml
+  shell: /usr/local/bin/docker-compose -f docker-compose.yml up -d
+  args:
+    chdir: "{{ project_dir }}"
+  tags:
+    - run_compose
+
+- name: giving some time for project (all 3 containers) to start-up
+  pause:
+    seconds: 10

@@ -1,0 +1,9 @@
+---
+- name: stop and disable ufw
+  systemd:
+    name: ufw
+    state: "{{ ufw.service.state| d('stopped') }}"
+    enabled: "{{ ufw.service.enabled| d('no') }}"
+  when: ansible_os_family == 'Debian'
+  tags: 
+    - ufw

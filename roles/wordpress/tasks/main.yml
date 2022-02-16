@@ -1,0 +1,19 @@
+---
+- name: Disable ufw Ubuntu
+  include_tasks: ufw.yml
+  when: ansible_os_family == 'Debian'
+  tags: 
+    - ufw
+
+- name: Install Docker
+  include_tasks: install_docker.yml
+  when: ansible_os_family == 'Debian'
+  tags: 
+    - docker
+
+- name: Configure WordPress
+  include_tasks: wordpress.yml
+  when: ansible_os_family == 'Debian'
+  tags: 
+    - wordpress
+

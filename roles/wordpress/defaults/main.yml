@@ -1,0 +1,88 @@
+---
+docker:
+  gpg_key: "https://download.docker.com/linux/{{ ansible_distribution | lower }}/gpg"
+  keyring: "/usr/share/keyrings/docker-archive-keyring.gpg"
+  source_file: "/etc/apt/sources.list.d/docker.list"
+  apt_list:
+    - ca-certificates
+    - curl
+    - gnupg
+    - lsb-release
+  packages:
+    - docker-ce
+    - docker-ce-cli
+    - containerd.io
+
+docker_compose:
+  url: "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-Linux-x86_64"
+  bin: "/usr/local/bin/docker-compose"
+
+ufw:
+  service:
+    state: "stopped"
+    enabled: "no"
+
+system_user: "{{ ansible_user }}"
+project_dir: /home/{{ system_user }}/project-wordpress
+
+wp:
+  image: "wordpress:fpm-alpine"
+  dirs:
+    - wordpress
+    - db-data
+    - nginx
+    - logs/nginx
+  db_image: mysql:latest
+  db_name: wordpress
+  db_user: wp_user
+  db_host: db
+
+#  db_psw: supersecret
+
+
+nginx:
+  image: nginx:alpine
+#  user: "www-data"
+#  conf_path: "/etc/nginx/conf.d"
+#  conf_file_path: "/etc/nginx/nginx.conf"
+#  pidfile: "/run/nginx.pid"
+#  mime_file_path: "/etc/nginx/mime.types"
+#  vhost_path_available: "/etc/nginx/sites-available"
+#  vhost_path_enabled: "/etc/nginx/sites-enabled"
+#  default_vhost_file_enabled: "/etc/nginx/sites-enabled/default"
+#  package: "nginx"
+#  version: "latest"
+#  service:
+#    state: "started"
+#    enabled: "yes"
+#  port: "80"
+#  worker:
+#    processes: "auto"
+#    connections: "1024"
+#  multi_accept: "off"
+#  log: 
+#    error: "/var/log/nginx/error.log"
+#    access: "/var/log/nginx/access.log main buffer=16k flush=2m"
+#  sendfile: "on"
+#  tcp_nopush: "on"
+#  tcp_nodelay: "on"
+#  keepalive:
+#    timeout: "65"
+#    requests: "100"
+#  types_hash_max_size: "2048"
+#  ssl:
+#    path: "/etc/nginx/ssl/"
+#    certificate:
+#      - "{{ domain.ssl.crt }}"
+#      - "{{ domain.ssl.key }}"
+#
+#sites:
+#  www_path: "/var/www/"
+#  available: "{{ nginx.vhost_path_available }}/{{ domain.name }}.conf"
+#  enabled: "{{ nginx.vhost_path_enabled }}/{{ domain.name }}.conf"
+#
+## for template site.conf.j2
+#ssl_certificate: "{{ nginx.ssl.path }}{{ domain.ssl.crt }}"
+#ssl_certificate_key: "{{ nginx.ssl.path }}{{ domain.ssl.key }}"
+#
+#root_path: "{{ sites.www_path }}{{ domain.name }}"
