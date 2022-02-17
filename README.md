@@ -38,5 +38,5 @@ The domain variable is in [all.yml](/inventory/group_vars/all.yml)
 * [main.yml](/roles/wordpress/defaults/main.yml)                      - variables
 
 The env file with passwords in [files](/roles/wordpress/files/.env)  
-There are encrypted by ansible vault. The password is "genesis"
+There is encrypted by ansible vault. The password is "genesis"
 
