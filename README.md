@@ -33,10 +33,10 @@ The domain variable is in [all.yml](/inventory/group_vars/all.yml)
 * [main.yml](/roles/wordpress/tasks/main.yml)                     - the main playbook with include all tasks  
 
 * [wordpress-nginx.j2](/roles/wordpress/templates/wordpress-nginx.j2)  - the template for nginx  
-* [docker-compose.j2](/roles/wordpress/templates/docker-compose..j2)   - the template for docker-compose.yml  
+* [docker-compose.j2](/roles/wordpress/templates/docker-compose.j2)   - the template for docker-compose.yml  
 
 * [main.yml](/roles/wordpress/defaults/main.yml)                      - variables
 
-The env file with passwords in [files](/roles/wordpress/files/)  
+The env file with passwords in [files](/roles/wordpress/files/.env)  
 There are encrypted by ansible vault. The password is "genesis"
 
