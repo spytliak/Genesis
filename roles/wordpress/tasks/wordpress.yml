@@ -40,7 +40,7 @@
     mode: 0644
 
 - name: run docker-compose
-#  docker_compose: # for module need docker-py
+#  docker_compose: # The error was: No module named 'requests'"
 #    project_name: wordpress
 #    project_src: "{{ project_dir }}"
 #    files: docker-compose.yml
@@ -50,6 +50,6 @@
   tags:
     - run_compose
 
-- name: giving some time for project (all 3 containers) to start-up
+- name: pausing for 10 seconds for giving time to start-up all containers
   pause:
     seconds: 10

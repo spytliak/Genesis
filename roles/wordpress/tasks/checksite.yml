@@ -1,0 +1,18 @@
+---
+- name: check 80 (http) - IP
+  uri:
+    url: http://{{ hostvars[inventory_hostname]['ansible_default_ipv4']['address'] }}
+    status_code: 200
+    return_content: no
+    timeout: 4
+  register: project
+  until: project.status == 200
+    
+- name: setup and available
+  debug:
+    msg: 
+      - "Setup has completed successfully"
+      - "The website is available on {{ domain }} or IP: {{ hostvars[inventory_hostname]['ansible_default_ipv4']['address'] }}"
+  changed_when: project.status == 200
+  tags:
+    - result

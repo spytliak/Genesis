@@ -17,3 +17,7 @@
   tags: 
     - wordpress
 
+- name: Check http
+  include_tasks: checksite.yml
+  tags:
+    - check website
