@@ -45,6 +45,6 @@
     /usr/local/bin/docker-compose --version
   register: docker_check
 
-- name: Debug docker
+- name: debug docker
   ansible.builtin.debug:
     msg: "{{ docker_check.stdout.split('\n') }}"
