@@ -50,6 +50,6 @@
   tags:
     - run_compose
 
-- name: pausing for 10 seconds for giving time to start-up all containers
+- name: pausing 10 seconds for giving time to start-up all containers
   pause:
     seconds: 10
