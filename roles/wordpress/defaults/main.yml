@@ -37,8 +37,5 @@ wp:
   db_user: wp_user
   db_host: db
 
-#  db_psw: supersecret
-
-
 nginx:
   image: nginx:alpine
