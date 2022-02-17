@@ -1,5 +1,5 @@
 ---
-- name: check 80 (http) - IP
+- name: check http - 80 (IP) 
   uri:
     url: http://{{ hostvars[inventory_hostname]['ansible_default_ipv4']['address'] }}
     status_code: 200

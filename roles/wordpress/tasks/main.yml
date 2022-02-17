@@ -20,4 +20,4 @@
 - name: Check http
   include_tasks: checksite.yml
   tags:
-    - check website
+    - check
