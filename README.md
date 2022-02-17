@@ -6,14 +6,10 @@ Link to Tech Task:
 
 ### Ansible
 
-The ansible playbooks for deploy WordPress in Docker. 
-
-The home work for this playbook is in [README_Task.md](README_Task.md)
-
-The playbooks are in [playbooks](/playbooks/) subdirectory.
-
-The roles are in [roles](/roles/) subdirectory.
-
+The ansible playbooks for deploy WordPress in Docker.  
+The home work for this playbook is in [README_Task.md](README_Task.md)  
+The playbooks are in [playbooks](/playbooks/) subdirectory.  
+The roles are in [roles](/roles/) subdirectory.  
 
 ### Requirements
 * ansible verison >= 2.9
@@ -31,10 +27,8 @@ The domain variable is in [all.yml](/inventory/group_vars/all.yml)
 * [install_docker.yml](/roles/wordpress/tasks/install_docker.yml) - install docker and docker-compose in Ubuntu
 * [ufw.yml](/roles/wordpress/tasks/ufw.yml)                       - disable ufw in ubuntu  
 * [main.yml](/roles/wordpress/tasks/main.yml)                     - the main playbook with include all tasks  
-
 * [wordpress-nginx.j2](/roles/wordpress/templates/wordpress-nginx.j2)  - the template for nginx  
 * [docker-compose.j2](/roles/wordpress/templates/docker-compose.j2)   - the template for docker-compose.yml  
-
 * [main.yml](/roles/wordpress/defaults/main.yml)                      - variables
 
 The env file with passwords in [files](/roles/wordpress/files/.env)  
