@@ -6,34 +6,33 @@ Link to Tech Task: https://github.com/amomama/devops-school or you can find in [
 The ansible playbooks for deploy WordPress (run Docker Compose project). It consists of 3 separate containers running: MySQL, WordPress, Nginx
 
 # Directory tree
-```
-+---inventory
-¦   +---group_vars
-¦   ¦   L---all.yml
-¦   +---host_vars
-¦   ¦   L---ub.local.yml
-¦
-+---playbooks
-¦   L--- wordpress.yml
-¦
-+---roles
-¦   L---wordpress
-¦       +---defaults
-¦       ¦   L---main.yml
-¦       +---files
-¦       ¦   L---.env
-¦       +---tasks
-¦       ¦   +---checksite.yml
-¦       ¦   +---install_docker.yml
-¦       ¦   +---main.yml
-¦       ¦   +---ufw.yml
-¦           L---wordpress.yml
-¦
-+---ansible.cfg
-¦
-+---README_Task.md
-¦
-+---README.md
+```bash
+├── inventory
+|   ├── group_vars
+|   |   └── all.yml
+|   └── host_vars
+|       └── ub.local.yml
+|
+├── playbooks
+|   └── wordpress.yml
+|
+├── roles
+|   └── wordpress
+|       ├── defaults
+|       |   └── main.yml
+|       ├── files
+|       |   └── .env
+|       └── tasks
+|           ├── checksite.yml
+|           ├── install_docker.yml
+|           ├── main.yml
+|           ├── ufw.yml
+|           └── wordpress.yml
+├── ansible.cfg
+|
+├── README_Task.md
+|
+└── README.md
 ```
 ### Description
 The playbooks are in [playbooks](/playbooks/) subdirectory.  
