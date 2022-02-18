@@ -67,7 +67,7 @@ system_user: "{{ ansible_user }}"
 ```
 git clone https://github.com/spytliak/Genesis.git
 ```
-**2. Update hosts inventory file `/inventory/host_vars/ub.local.yml` [ub.loacl.yml](/inventory/host_vars/ub.local.yml) with your instance(server) Public IP and user:**  
+**2. Update hosts inventory file `/inventory/host_vars/ub.local.yml` [ub.local.yml](/inventory/host_vars/ub.local.yml) with your instance(server) Public IP and user:**  
 ```
 ansible_ssh_host: 192.168.10.57
 ansible_user: ubuntu
