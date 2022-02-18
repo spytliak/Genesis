@@ -1,23 +1,43 @@
 ## Genesis  
 #### This repository is for Genesis DevOps School  
-
-Link to Tech Task: https://github.com/amomama/devops-school  
+Link to Tech Task: https://github.com/amomama/devops-school or you can find in [README_Task.md](README_Task.md) 
 
 ### Ansible
+The ansible playbooks for deploy WordPress (run Docker Compose project). It consists of 3 separate containers running: MySQL, WordPress, Nginx
 
-The ansible playbooks for deploy WordPress in Docker.  
-The home work for this playbook is in [README_Task.md](README_Task.md)  
+# Directory tree
+```
++---inventory
+¦   +---group_vars
+¦   ¦   L---all.yml
+¦   +---host_vars
+¦   ¦   L---ub.local.yml
+¦
++---playbooks
+¦   L--- wordpress.yml
+¦
++---roles
+¦   L---wordpress
+¦       +---defaults
+¦       ¦   L---main.yml
+¦       +---files
+¦       ¦   L---.env
+¦       +---tasks
+¦       ¦   +---checksite.yml
+¦       ¦   +---install_docker.yml
+¦       ¦   +---main.yml
+¦       ¦   +---ufw.yml
+¦           L---wordpress.yml
+¦
++---ansible.cfg
+¦
++---README_Task.md
+¦
++---README.md
+```
+### Description
 The playbooks are in [playbooks](/playbooks/) subdirectory.  
 The roles are in [roles](/roles/) subdirectory.  
-
-### Requirements
-* ansible verison >= 2.9
-* python >= 3.7
-
-### Supported OS
-* Ubuntu >= 18
-
-### Description
 
 * [wordpress.yml](/roles/wordpress/tasks/wordpress.yml)           - deploy wordpress: copy files and run docker-compose  
 * [checksite.yml](/roles/wordpress/tasks/checksite.yml)           - check health  
@@ -29,4 +49,17 @@ The roles are in [roles](/roles/) subdirectory.
 * [main.yml](/roles/wordpress/defaults/main.yml)                      - variables
 * [all.yml](/inventory/group_vars/all.yml)                            - the group variables. The domain is included to file.
 * [files](/roles/wordpress/files/.env)                                - the env file with passwords, it is encrypted by ansible vault. The password is: **genesis** 
+
+### Requirements
+There are packages below that should be installed on the (local) host where you'll be running this playbook on:
+* Ansible >= 2.9  
+* python >= 3.7  
+The Linux user that can be used by Ansible to access the host. Default is **ubuntu** (to support AWS, GCP, Openstack), however feel free to use any other user. Make sure to update the 'system_user' -'ansible_user' variable inside [ub.loacl.yml](/inventory/host_vars/ub.local.yml)
+```
+system_user: "{{ ansible_user }}"
+```
+
+### Supported OS
+* Target linux instance should have Ubuntu >= 18
+
 
