@@ -19,8 +19,6 @@ The roles are in [roles](/roles/) subdirectory.
 
 ### Description
 
-The domain variable is in [all.yml](/inventory/group_vars/all.yml)
-
 * [wordpress.yml](/roles/wordpress/tasks/wordpress.yml)           - deploy wordpress: copy files and run docker-compose  
 * [checksite.yml](/roles/wordpress/tasks/checksite.yml)           - check health  
 * [install_docker.yml](/roles/wordpress/tasks/install_docker.yml) - install docker and docker-compose in Ubuntu
@@ -29,7 +27,6 @@ The domain variable is in [all.yml](/inventory/group_vars/all.yml)
 * [wordpress-nginx.j2](/roles/wordpress/templates/wordpress-nginx.j2)  - the template for nginx  
 * [docker-compose.j2](/roles/wordpress/templates/docker-compose.j2)   - the template for docker-compose.yml  
 * [main.yml](/roles/wordpress/defaults/main.yml)                      - variables
-
-The env file with passwords in [files](/roles/wordpress/files/.env)  
-There is encrypted by ansible vault. The password is: **genesis**
+* [files](/roles/wordpress/files/.env)                                - the env file with passwords, it is encrypted by ansible vault. The password is: **genesis**  
+The domain variable is in [all.yml](/inventory/group_vars/all.yml)
 
