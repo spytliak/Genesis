@@ -54,7 +54,7 @@ There are packages below that should be installed on the (local) host where you'
 * Ansible >= 2.9  
 * python >= 3.7  
 
-The Linux user that can be used by Ansible to access the host. Default is **ubuntu** (to support AWS, GCP, Openstack), however feel free to use any other user. Make sure to update the -'ansible_user' variable inside [ub.loacl.yml](/inventory/host_vars/ub.local.yml)  
+The Linux user that can be used by Ansible to access the host. Default is **ubuntu** (to support AWS, GCP, Openstack), however feel free to use any other user. Make sure to update the 'ansible_user' variable inside [ub.loacl.yml](/inventory/host_vars/ub.local.yml)  
 ```
 system_user: "{{ ansible_user }}"
 ```
@@ -67,11 +67,12 @@ system_user: "{{ ansible_user }}"
 ```
 git clone https://github.com/spytliak/Genesis.git
 ```
-**2. Update hosts inventory file [ub.loacl.yml](/inventory/host_vars/ub.local.yml) with your instance(server) Public IP:**  
+**2. Update hosts inventory file [ub.loacl.yml](/inventory/host_vars/ub.local.yml) with your instance(server) Public IP and user:**  
 ```
 ansible_ssh_host: 192.168.10.57
+ansible_user: ubuntu
 ```
-**3. Run playbook, using hosts inventory file and with --ask-vault-pass (pass: genesis) :**
+**3. Run playbook, using hosts inventory file if need (see ansible.cfg) (Vault password: genesis) :**
 ```
 ansible-playbook playbooks/wordpress.yml --ask-vault-pass
 ```
