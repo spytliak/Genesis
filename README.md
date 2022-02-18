@@ -67,12 +67,15 @@ system_user: "{{ ansible_user }}"
 ```
 git clone https://github.com/spytliak/Genesis.git
 ```
-**2. Update hosts inventory file [ub.loacl.yml](/inventory/host_vars/ub.local.yml) with your instance(server) Public IP and user:**  
+**2. Update hosts inventory file `/inventory/host_vars/ub.local.yml` [ub.loacl.yml](/inventory/host_vars/ub.local.yml) with your instance(server) Public IP and user:**  
 ```
 ansible_ssh_host: 192.168.10.57
 ansible_user: ubuntu
 ```
 **3. Run playbook, using hosts inventory file if need (see ansible.cfg) (Vault password: genesis) :**
 ```
-ansible-playbook playbooks/wordpress.yml --ask-vault-pass
+ansible-playbook playbooks/wordpress.yml -K --ask-vault-pass
 ```
+
+### Output
+Link to example with full output: https://gist.github.com/spytliak/763d94346869efcc49897c0c43275db6
