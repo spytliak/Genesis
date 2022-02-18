@@ -72,7 +72,7 @@ git clone https://github.com/spytliak/Genesis.git
 ansible_ssh_host: 192.168.10.57
 ansible_user: ubuntu
 ```
-**3. Run playbook, using hosts inventory file if need (see ansible.cfg) (Vault password: genesis) :**
+**3. Run playbook (if need, please use the hosts inventory file. Vault password: genesis):**
 ```
 ansible-playbook playbooks/wordpress.yml -K --ask-vault-pass
 ```
