@@ -27,6 +27,6 @@ The roles are in [roles](/roles/) subdirectory.
 * [wordpress-nginx.j2](/roles/wordpress/templates/wordpress-nginx.j2)  - the template for nginx  
 * [docker-compose.j2](/roles/wordpress/templates/docker-compose.j2)   - the template for docker-compose.yml  
 * [main.yml](/roles/wordpress/defaults/main.yml)                      - variables
-* [files](/roles/wordpress/files/.env)                                - the env file with passwords, it is encrypted by ansible vault. The password is: **genesis**  
-The domain variable is in [all.yml](/inventory/group_vars/all.yml)
+* [all.yml](/inventory/group_vars/all.yml)                            - the group variables. The domain is included to file.
+* [files](/roles/wordpress/files/.env)                                - the env file with passwords, it is encrypted by ansible vault. The password is: **genesis** 
 
