@@ -76,6 +76,5 @@ ansible_user: ubuntu
 ```
 ansible-playbook playbooks/wordpress.yml -K --ask-vault-pass
 ```
-
 ### Output
 Link to example with full output: https://gist.github.com/spytliak/763d94346869efcc49897c0c43275db6
