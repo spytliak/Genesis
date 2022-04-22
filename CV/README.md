@@ -9,7 +9,7 @@ Male, 32 year old
 pytliak.serhii@gmail.com  
 [linkedin](https://www.linkedin.com/in/pytliakserhii/)  
 ____________
- ### Professional Experience – 9.6 years 
+ ### Professional Experience – 9.5 years 
  #### Junior DevOps Engineer
   *Nov 2021  - present time*  
   [Netcracker](https://www.netcracker.com/)  
