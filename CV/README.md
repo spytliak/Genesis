@@ -22,7 +22,7 @@ ____________
   *Dec 2020  - Nov 2021*  
   [Netcracker](https://www.netcracker.com/)  
 
-Supporting and troubleshooting a dozen HA Openstack clouds and Juniper Contrail of different releases; deploying new internal ones as well as on the customer site. Automating routine processes and some integrating activities.  
+* Supporting and troubleshooting a dozen HA Openstack clouds and Juniper Contrail of different releases; deploying new internal ones as well as on the customer site. Automating routine processes and some integrating activities.  
 *Key skills:* Openstack, Juniper Contrail, Ansible, Bash  
 
  #### Senior IT Engineer (IT HD Linux and SDN Group)
@@ -30,8 +30,8 @@ Supporting and troubleshooting a dozen HA Openstack clouds and Juniper Contrail 
   [Netcracker](https://www.netcracker.com/)  
 
 ```
-*	Experience supporting environments based on the Windows NT family of operating systems (Windows Server 2008/2012, Windows 7/10), including diagnostics and analysis of problems in system performance troubleshooting/profiling, automated deploy app via MDT/ SCCM;
-*	Experience working with and maintaining environments based on the Linux OS family (RedHat/Debian), including automated OS installation, software compilation, package management, diagnostics, and analysis of problems in profiling/performance of high-load systems.
+- Experience supporting environments based on the Windows NT family of operating systems (Windows Server 2008/2012, Windows 7/10), including diagnostics and analysis of problems in system performance troubleshooting/profiling, automated deploy app via MDT/ SCCM;
+•	Experience working with and maintaining environments based on the Linux OS family (RedHat/Debian), including automated OS installation, software compilation, package management, diagnostics, and analysis of problems in profiling/performance of high-load systems.
 *	Experience with support and maintenance of Active Directory services;
 * Experience working with virtualization technology such as VMWare, Hyper-V;
 *	Experience working with and maintaining of IaaS-infrastructure, based on Openstack, Proxmox;
