@@ -78,7 +78,7 @@ Technical Systems of Information Protection, Institute of Information Diagnostic
 - Ability to learn fast and process large amounts of information;  
 - Ability to execute tasks in a high-pressure environment;  
 - Strong team player with the ability to work productively in a team as well as individually;  
-- Organization and prioritization skills;  
+- Organization and prioritization skills.  
 ```
 ##### Hobbies
 ```
