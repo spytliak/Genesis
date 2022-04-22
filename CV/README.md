@@ -13,7 +13,7 @@ ____________
 ____________ 
 
  #### Junior DevOps Engineer
-<u>Nov 2021  - present time</u>  
+<u> Nov 2021  - present time <u>  
 [Netcracker](https://www.netcracker.com/)
 
 • Operate and maintain AWS/GCP infrastructure for dev and prod environment
