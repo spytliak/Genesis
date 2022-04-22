@@ -1,32 +1,31 @@
-## Ciklum
+## Genesis
 for Genesis DevOps School 
 
 ### CV
-```
+
 Serhii Pytliak
 Male, 32 year old
 +380507104084
 pytliak.serhii@gmail.com
-```
+[linkedin](https://www.linkedin.com/in/pytliakserhii/)
 ____________
  #### Experience – 9.6 years 
 ____________ 
 
- #### DevOps Engineer 
-``` 
-Nov 2021  - present time
+ #### Junior DevOps Engineer
+*Nov 2021  - present time*
 [Netcracker](https://www.netcracker.com/)
-```
+
 • Operate and maintain AWS/GCP infrastructure for dev and prod environment
 • Design and implement CI/CD pipelines (Gitlab)
-*Key skills:*  AWS (EC2, VPC, S3, IAM, Lambda, SNS, CloudWatch, EKS, Cloudformation), GCP (Compute Engine, Cloud Functions), Ansible, Terraform, Docker, Python
+*Key skills:*  AWS (EC2, VPC, S3, IAM, Lambda, SNS, CloudWatch, Cloudformation), GCP (Compute Engine, Cloud Functions), Ansible, Terraform, Docker, Python
 
  #### Cloud Support Engineer (Openstack/Contrail)
 ``` 
 Dec 2020  - Nov 2021 
 [Netcracker](https://www.netcracker.com/)
 ```
-  Supporting and troubleshooting a dozen HA Openstack clouds and Juniper Contrail of different releases; deploying new internal ones as well as on the customer site. Automating routine processes and some integrating activities.
+  Supporting and troubleshooting a dozen HA Openstack clouds and Juniper Contrail of different releases; deploying new internal ones as well as on the customer site. Automating routine processes and some integrating activities.  
 *Key skills:* Openstack, Juniper Contrail, Ansible, Bash
 
  #### Senior IT Engineer (IT HD Linux and SDN Group)
