@@ -13,26 +13,24 @@ ____________
 ____________ 
 
  #### Junior DevOps Engineer
-[Nov 2021  - present time]  
-[Netcracker](https://www.netcracker.com/)  
+  *Nov 2021  - present time*  
+  [Netcracker](https://www.netcracker.com/)  
 
 • Operate and maintain AWS/GCP infrastructure for dev and prod environment
 • Design and implement CI/CD pipelines (Gitlab)
 *Key skills:*  AWS (EC2, VPC, S3, IAM, Lambda, SNS, CloudWatch, Cloudformation), GCP (Compute Engine, Cloud Functions), Ansible, Terraform, Docker, Python
 
  #### Cloud Support Engineer (Openstack/Contrail)
-``` 
-Dec 2020  - Nov 2021 
-[Netcracker](https://www.netcracker.com/)
-```
+  *Dec 2020  - Nov 2021*  
+  [Netcracker](https://www.netcracker.com/)  
+
   Supporting and troubleshooting a dozen HA Openstack clouds and Juniper Contrail of different releases; deploying new internal ones as well as on the customer site. Automating routine processes and some integrating activities.  
 *Key skills:* Openstack, Juniper Contrail, Ansible, Bash
 
  #### Senior IT Engineer (IT HD Linux and SDN Group)
-```
-Apr 2016 – Dec 2020  
-[Netcracker](https://www.netcracker.com/)
-```
+  *Apr 2016 – Dec 2020*  
+  [Netcracker](https://www.netcracker.com/)  
+
 ```
 •	 Experience supporting of environments based on the Windows NT family of operating systems (Windows Server 2008/2012, Windows 7/10), including diagnostics and analysis of problems in system performance troubleshooting/profiling, automated deploy app via MDT/ SCCM;
 •	 Experience working with and maintaining of environments based on the Linux OS family (RedHat/Debian), including automated OS installation, software compilation, package management, diagnostics and analysis of problems in profiling/performance of high-load systems.
@@ -49,10 +47,9 @@ Apr 2016 – Dec 2020
 ```
 
  #### IT Engineer (System administrator)
-``` 
-Oct 2012 - Mar 2016 (3 years 6 months)
-A&E IT (http://www.ae.ua)
-```
+  *Oct 2012 - Mar 2016 (3 years 6 months)*
+  [A&E IT](http://www.ae.ua)
+
 ```
 •	Information and technical support for customers and employees;
 •	Managing and Maintaining the Servers, PC's, Routers and Switches;
