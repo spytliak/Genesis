@@ -63,14 +63,14 @@ ____________
 
  ###  Education  
  ```
-* National Aviation University (Kiev, Ukraine) 2012  
-* Technical Systems of Information Protection, Institute of Information Diagnostic Systems, Specialist degree  
+National Aviation University (Kiev, Ukraine) 2012  
+Technical Systems of Information Protection, Institute of Information Diagnostic Systems, Specialist degree  
 ```
  ####  Language skills
  ```
-* English – low intermediate (B1)  
-* Ukrainian - native  
-* Russian - fluent  
+ English – low intermediate (B1)  
+ Ukrainian - native  
+ Russian - fluent  
 ```
  ####  Additional Information
  ##### Personal skills
