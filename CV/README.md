@@ -3,17 +3,17 @@ for Genesis DevOps School
 
 ### CV
 
-Serhii Pytliak
-Male, 32 year old
-+380507104084
-pytliak.serhii@gmail.com
-[linkedin](https://www.linkedin.com/in/pytliakserhii/)
+Serhii Pytliak  
+Male, 32 year old  
++380507104084  
+pytliak.serhii@gmail.com  
+[linkedin](https://www.linkedin.com/in/pytliakserhii/)  
 ____________
  #### Experience – 9.6 years 
 ____________ 
 
  #### Junior DevOps Engineer
-*Nov 2021  - present time*
+<u>Nov 2021  - present time</u>  
 [Netcracker](https://www.netcracker.com/)
 
 • Operate and maintain AWS/GCP infrastructure for dev and prod environment
