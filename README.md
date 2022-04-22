@@ -1,4 +1,5 @@
 ## Genesis  
+##### The CV in [CV](CV) directory
 #### This repository is for Genesis DevOps School  
 Link to Tech Task: https://github.com/amomama/devops-school or you can find in [README_Task.md](README_Task.md) 
 
