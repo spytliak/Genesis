@@ -41,7 +41,7 @@ ____________
 - Experience with configuration active network equipment L2;  
 - A little experience working with Gitlab CI/CD, Jenkins, infrastructure monitoring systems based on Nagios, Zabbix, Grafana;  
 - Creating simple scripts for infrastructure maintaining tasks with Bash;  
- Development of regulatory documentation.  
+- Development of regulatory documentation.  
 ```
 
  #### IT Engineer (System administrator)
@@ -81,4 +81,6 @@ Technical Systems of Information Protection, Institute of Information Diagnostic
 - Organization and prioritization skills;  
 ```
 ##### Hobbies
-Healthy lifestyle. Winter swimming. Hardening. Snowboarding. Reading. Swimming. Football. Trekking.  
+```
+Healthy lifestyle.  Winter swimming.  Hardening.  Snowboarding.  Reading.  Swimming.  Football.  Trekking.  
+```
