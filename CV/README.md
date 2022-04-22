@@ -30,17 +30,17 @@ ____________
   [Netcracker](https://www.netcracker.com/)  
 
 ```
- Experience supporting environments based on the Windows NT family of operating systems (Windows Server 2008/2012, Windows 7/10), including  diagnostics and analysis of problems in system performance troubleshooting/profiling, automated deploy app via MDT/SCCM;  
- Experience working with and maintaining environments based on the Linux OS family (RedHat/Debian), including automated OS installation,  software compilation, package management, diagnostics, and analysis of problems in profiling/performance of high-load systems.  
- Experience with support and maintenance of Active Directory services;  
- Experience working with virtualization technology such as VMWare, Hyper-V;  
- Experience working with and maintaining of IaaS-infrastructure, based on Openstack, Proxmox;  
- Experience working with automated configuration management system Puppet;  
- Development of playbooks for automated configuration management system Ansible;  
- Experience installation and maintenance of servers DELL\SUPERMICRO\FUJITSU;  
- Experience with configuration active network equipment L2;  
- A little experience working with Gitlab CI/CD, Jenkins, infrastructure monitoring systems based on Nagios, Zabbix, Grafana;  
- Creating simple scripts for infrastructure maintaining tasks with Bash;  
+- Experience supporting environments based on the Windows NT family of operating systems (Windows Server 2008/2012, Windows 7/10), including - diagnostics and analysis of problems in system performance troubleshooting/profiling, automated deploy app via MDT/SCCM;  
+- Experience working with and maintaining environments based on the Linux OS family (RedHat/Debian), including automated OS installation, - software compilation, package management, diagnostics, and analysis of problems in profiling/performance of high-load systems.  
+- Experience with support and maintenance of Active Directory services;  
+- Experience working with virtualization technology such as VMWare, Hyper-V;  
+- Experience working with and maintaining of IaaS-infrastructure, based on Openstack, Proxmox;  
+- Experience working with automated configuration management system Puppet;  
+- Development of playbooks for automated configuration management system Ansible;  
+- Experience installation and maintenance of servers DELL\SUPERMICRO\FUJITSU;  
+- Experience with configuration active network equipment L2;  
+- A little experience working with Gitlab CI/CD, Jenkins, infrastructure monitoring systems based on Nagios, Zabbix, Grafana;  
+- Creating simple scripts for infrastructure maintaining tasks with Bash;  
  Development of regulatory documentation.  
 ```
 
@@ -49,16 +49,16 @@ ____________
   [A&E IT](http://www.ae.ua)  
 
 ```
-	Information and technical support for customers and employees;  
-	Managing and Maintaining the Servers, PC's, Routers and Switches;  
-	Installing and configuring the peripherals, components and drivers;  
-	Preparation and maintenance of computer and network equipment;  
-	Installation and maintenance of software;  
-	Backup Management, Reporting and Recovery;  
-	Troubleshooting hardware and software problems;  
-	Repair and maintenance of computers and office equipment;  
-	Maintenance and administration of production infrastructure based on VMWare virtualization technology such as VMWare Esxi 5.0,5.1,6.0;  
-	Administration software: 1С 7.7, 1С 8.2, Liga Zakon, MeDoc, OPZ, Sonata, Art Zvit, Client Banks.  
+- Information and technical support for customers and employees;  
+- Managing and Maintaining the Servers, PC's, Routers and Switches;  
+- Installing and configuring the peripherals, components and drivers;  
+- Preparation and maintenance of computer and network equipment;  
+- Installation and maintenance of software;  
+- Backup Management, Reporting and Recovery;  
+- Troubleshooting hardware and software problems;  
+- Repair and maintenance of computers and office equipment;  
+- Maintenance and administration of production infrastructure based on VMWare virtualization technology such as VMWare Esxi 5.0,5.1,6.0;  
+- Administration software: 1С 7.7, 1С 8.2, Liga Zakon, MeDoc, OPZ, Sonata, Art Zvit, Client Banks.  
 ```
 
  ###  Education  
@@ -75,10 +75,10 @@ Technical Systems of Information Protection, Institute of Information Diagnostic
  ####  Additional Information
  ##### Personal skills
 ```
--	Ability to learn fast and process large amounts of information;  
--	Ability to execute tasks in a high-pressure environment;  
--	Strong team player with the ability to work productively in a team as well as individually;  
--	Organization and prioritization skills;  
+- Ability to learn fast and process large amounts of information;  
+- Ability to execute tasks in a high-pressure environment;  
+- Strong team player with the ability to work productively in a team as well as individually;  
+- Organization and prioritization skills;  
 ```
 ##### Hobbies
 Healthy lifestyle. Winter swimming. Hardening. Snowboarding. Reading. Swimming. Football. Trekking.  
