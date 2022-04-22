@@ -13,24 +13,24 @@ ____________
  #### Junior DevOps Engineer
   *Nov 2021  - present time*  
   [Netcracker](https://www.netcracker.com/)  
-```
+
 - Operate and maintain AWS/GCP infrastructure for dev and prod environment  
 - Design and implement CI/CD pipelines (Gitlab)  
 *Key skills:*  AWS (EC2, VPC, S3, IAM, Lambda, SNS, CloudWatch, Cloudformation), GCP (Compute Engine, Cloud Functions), Ansible, Terraform, Docker, Python  
-```
+
  #### Cloud Support Engineer (Openstack/Contrail)
   *Dec 2020  - Nov 2021*  
   [Netcracker](https://www.netcracker.com/)  
-```
+
 - Supporting and troubleshooting a dozen HA Openstack clouds and Juniper Contrail of different releases; deploying new internal ones as well as on the customer site. Automating routine processes and some integrating activities.  
 *Key skills:* Openstack, Juniper Contrail, Ansible, Bash  
-```
+
  #### Senior IT Engineer (IT HD Linux and SDN Group)
   *Apr 2016 – Dec 2020*  
   [Netcracker](https://www.netcracker.com/)  
 
 ```
-- Experience supporting environments based on the Windows NT family of operating systems (Windows Server 2008/2012, Windows 7/10), including diagnostics and analysis of problems in system performance troubleshooting/profiling, automated deploy app via MDT/ SCCM;  
+- Experience supporting environments based on the Windows NT family of operating systems (Windows Server 2008/2012, Windows 7/10), including diagnostics and analysis of problems in system performance troubleshooting/profiling, automated deploy app via MDT/SCCM;  
 -	Experience working with and maintaining environments based on the Linux OS family (RedHat/Debian), including automated OS installation, software compilation, package management, diagnostics, and analysis of problems in profiling/performance of high-load systems.  
 -	Experience with support and maintenance of Active Directory services;  
 - Experience working with virtualization technology such as VMWare, Hyper-V;  
@@ -62,14 +62,16 @@ ____________
 ```
 
  ###  Education  
+ ```
 * National Aviation University (Kiev, Ukraine) 2012  
 * Technical Systems of Information Protection, Institute of Information Diagnostic Systems, Specialist degree  
-
+```
  ####  Language skills
+ ```
 * English – low intermediate (B1)  
 * Ukrainian - native  
 * Russian - fluent  
-
+```
  ####  Additional Information
  ##### Personal skills
 ```
