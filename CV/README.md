@@ -3,9 +3,9 @@ for Genesis DevOps School
 
 ### CV
 ____________
-Serhii Pytliak  
+**Serhii Pytliak**  
 Male, 32 year old  
-+380507104084  
+*+380507104084*  
 pytliak.serhii@gmail.com  
 [linkedin](https://www.linkedin.com/in/pytliakserhii/)  
 ____________
@@ -22,7 +22,7 @@ ____________
   *Dec 2020  - Nov 2021*  
   [Netcracker](https://www.netcracker.com/)  
 
-  Supporting and troubleshooting a dozen HA Openstack clouds and Juniper Contrail of different releases; deploying new internal ones as well as on the customer site. Automating routine processes and some integrating activities.  
+Supporting and troubleshooting a dozen HA Openstack clouds and Juniper Contrail of different releases; deploying new internal ones as well as on the customer site. Automating routine processes and some integrating activities.  
 *Key skills:* Openstack, Juniper Contrail, Ansible, Bash  
 
  #### Senior IT Engineer (IT HD Linux and SDN Group)
@@ -30,18 +30,18 @@ ____________
   [Netcracker](https://www.netcracker.com/)  
 
 ```
-•	 Experience supporting of environments based on the Windows NT family of operating systems (Windows Server 2008/2012, Windows 7/10), including diagnostics and analysis of problems in system performance troubleshooting/profiling, automated deploy app via MDT/ SCCM;
-•	 Experience working with and maintaining of environments based on the Linux OS family (RedHat/Debian), including automated OS installation, software compilation, package management, diagnostics and analysis of problems in profiling/performance of high-load systems.
-•	 Experience with support and maintenance of Active Directory services;
-•	 Experience working with and maintaining of IaaS-infrastructure, based on Openstack, Proxmox;
-•   Experience working with virtualization technology such as VMWare, Hyper-V;
-•	 Experience working with automated configuration management system Puppet;
-•	 Development of playbooks for automated configuration management system Ansible;
-•	 Experience installation and maintenance of servers DELL\SUPERMICRO\FUJITSU;
-•	 Experience with configuration active network equipment L2;
-•	 A little experience working with Gitlab, Jenkins, infrastructure monitoring systems based on Nagios, Zabbix, Grafana;
-•	 Creating simple scripts for infrastructure maintaining tasks with Bash;
-•	 Development of regulatory documentation.
+•	Experience supporting of environments based on the Windows NT family of operating systems (Windows Server 2008/2012, Windows 7/10), including diagnostics and analysis of problems in system performance troubleshooting/profiling, automated deploy app via MDT/ SCCM;
+•	Experience working with and maintaining of environments based on the Linux OS family (RedHat/Debian), including automated OS installation, software compilation, package management, diagnostics and analysis of problems in profiling/performance of high-load systems.
+•	Experience with support and maintenance of Active Directory services;
+•	Experience working with and maintaining of IaaS-infrastructure, based on Openstack, Proxmox;
+• Experience working with virtualization technology such as VMWare, Hyper-V;
+•	Experience working with automated configuration management system Puppet;
+•	Development of playbooks for automated configuration management system Ansible;
+•	Experience installation and maintenance of servers DELL\SUPERMICRO\FUJITSU;
+•	Experience with configuration active network equipment L2;
+•	A little experience working with Gitlab, Jenkins, infrastructure monitoring systems based on Nagios, Zabbix, Grafana;
+•	Creating simple scripts for infrastructure maintaining tasks with Bash;
+•	Development of regulatory documentation.
 ```
 
  #### IT Engineer (System administrator)
@@ -73,7 +73,6 @@ ____________
 * Russian - fluent 
 
  ####  Additional Information
-
  ##### Personal skills
 ```
 •	Ability to learn fast and process large amounts of information;
@@ -83,7 +82,7 @@ ____________
 •	Analytical thinking, planning;
 •	Accuracy and attention to details;  
 •	Organization and prioritization skills; 
-•	 Responsible, self-organized, flexible, courteous, punctual. No bad habits. 
+•	Responsible, self-organized, flexible, courteous, punctual. No bad habits. 
 ```
 ##### Hobbies
 Healthy lifestyle. Winter swimming. Hardening. Snowboarding. Reading. Swimming. Football. Trekking.
