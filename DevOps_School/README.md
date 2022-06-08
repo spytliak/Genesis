@@ -2,4 +2,4 @@
 #### This folder is for Genesis DevOps School's home works
 
 ### Description
-[python](/Python/) subdirectory for Python scripts
+[Python](/DevOps_School/Python/) subdirectory for Python scripts
