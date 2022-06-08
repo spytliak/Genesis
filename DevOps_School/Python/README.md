@@ -1,12 +1,12 @@
 ### Tasks for create scripts
-```
+
 1. Дано 3 отрезка, длина которых a, b и c соответственно (вводится с консоли).
 Требуется написать программу, которая проверяет, можно ли составить из данных отрезков треугольник и если треугольник получится, указать его тип (равносторонний, равнобедренный, прямоугольный или разносторонний)
 Обязательно в решении использовать функции.
 
 2. Написать скрипт, который будет выводить в консоль текущую погоду для Вашего населённого пункта (или ближайшего, если вашего нет в базе сервиса).
 Для получения погоды использовать API https://openweathermap.org/api
- ```
+
  
  * [classify_triangles.py](/DevOps_School/Python/classify_triangles.py) - The script checks the possibility of making a triangle of the given segments, and if the triangle is successful, it will show the type.  
  * [requirements.txt](/DevOps_School/Python/requirements.txt)           - The packages that the weather_forecast.py script requires  
