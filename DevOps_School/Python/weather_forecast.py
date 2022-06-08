@@ -6,8 +6,10 @@ from pyowm.utils.config import get_default_config
 
 def get_weather(city, APIID):
     try:
+        # needed for installing different languages for query results, default is eng
         config_dict = get_default_config()
         config_dict['language'] = 'eng'
+        
         owm = OWM(APIID, config_dict)
         mgr = owm.weather_manager()
         
