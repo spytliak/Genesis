@@ -7,7 +7,7 @@
 2. Написать скрипт, который будет выводить в консоль текущую погоду для Вашего населённого пункта (или ближайшего, если вашего нет в базе сервиса).
 Для получения погоды использовать API https://openweathermap.org/api
 
- 
+ ### Description
  * [classify_triangles.py](/DevOps_School/Python/classify_triangles.py) - The script checks the possibility of making a triangle of the given segments, and if the triangle is successful, it will show the type.  
  * [requirements.txt](/DevOps_School/Python/requirements.txt)           - The packages that the weather_forecast.py script requires  
  * [weather_forecast.py](/DevOps_School/Python/weather_forecast.py)     - The script shows the current weather forecast for your city. For script need to install the library [pyown](https://pyowm.readthedocs.io/en/latest/index.html), which works with API https://openweathermap.org/api, and export the environment variable APIID (API key) in your env. Example for linux is below:  
