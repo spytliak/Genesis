@@ -9,14 +9,14 @@ Male, 32 year old
 pytliak.serhii@gmail.com  
 [linkedin](https://www.linkedin.com/in/pytliakserhii/)  
 ____________
- ### Professional Experience – 9.5 years 
+ ### Professional Experience – 10 years 
  #### Junior DevOps Engineer
   *Nov 2021  - present time*  
   [Netcracker](https://www.netcracker.com/)  
 
 - Operate and maintain AWS/GCP infrastructure for dev and prod environment  
 - Design and implement CI/CD pipelines (Gitlab)  
-*Key skills:*  AWS (EC2, VPC, S3, IAM, Lambda, SNS, CloudWatch, Cloudformation), GCP (Compute Engine, Cloud Functions), Ansible, Terraform, Docker, Python  
+*Key skills:*  AWS (EC2, VPC, S3, IAM, Lambda, SNS, CloudWatch, Cloudformation, ECR, Keyspaces, RDS), GCP (Compute Engine, Cloud Functions), Ansible, Terraform, Docker, Python  
 
  #### Cloud Support Engineer (Openstack/Contrail)
   *Dec 2020  - Nov 2021*  
