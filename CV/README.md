@@ -16,6 +16,7 @@ ____________
 
 - Operate and maintain AWS/GCP infrastructure for dev and prod environment  
 - Design and implement CI/CD pipelines (Gitlab)  
+
 *Key skills:*  AWS (EC2, VPC, S3, IAM, Lambda, SNS, CloudWatch, Cloudformation, ECR, EKS, Keyspaces, RDS), GCP (Compute Engine, Cloud Functions, Cloud Scheduler, Pub/Sub, BigQuery, Logging), Ansible, Terraform, Docker, Python  
 
  #### Cloud Support Engineer (Openstack/Contrail)
