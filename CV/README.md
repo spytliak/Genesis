@@ -4,7 +4,7 @@ for Genesis DevOps School
 ### CV
 ____________
 **Serhii Pytliak**  
-Male, 32 year old  
+Male, 33 year old  
 *+380507104084*  
 pytliak.serhii@gmail.com  
 [linkedin](https://www.linkedin.com/in/pytliakserhii/)  
@@ -17,7 +17,7 @@ ____________
 - Operate and maintain AWS/GCP infrastructure for dev and prod environment  
 - Design and implement CI/CD pipelines (Gitlab)  
 
-*Key skills:*  AWS (EC2, VPC, S3, IAM, Lambda, SNS, CloudWatch, Cloudformation, ECR, EKS, Keyspaces, RDS), GCP (Compute Engine, Cloud Functions, Cloud Scheduler, Pub/Sub, BigQuery, Logging), Ansible, Terraform, Docker, Python  
+*Key skills:*  AWS (EC2, VPC, S3, IAM, Lambda, SNS, CloudWatch, Cloudformation, ECR, EKS, Keyspaces, RDS, KMS), GCP (Compute Engine, Cloud Functions, Cloud Scheduler, Pub/Sub, BigQuery, Logging), Ansible, Terraform, Docker, Python, K8s  
 
  #### Cloud Support Engineer (Openstack/Contrail)
   *Dec 2020  - Nov 2021*  
